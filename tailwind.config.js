@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'white': 'rgb(255, 255, 255)',
+        'body': 'rgb(229, 246, 246)',
         'primaryText': 'rgb(1, 1, 1)',
         'secondaryText': 'rgb(104, 102, 102)',
         'primaryBacground': '#EDF5E1',
