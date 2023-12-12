@@ -1,12 +1,11 @@
 import { FC } from 'react';
 import { Audio } from 'react-loader-spinner';
-import { WrapSpinner } from './Loader.styled';
 
 const Loader: FC = () => {
   return (
-    <WrapSpinner>
+    <div className='flex justify-center items-center text-buttonColor'>
       <Audio color="#379683" ariaLabel="audio-loading" />
-    </WrapSpinner>
+    </div>
   );
 };
 

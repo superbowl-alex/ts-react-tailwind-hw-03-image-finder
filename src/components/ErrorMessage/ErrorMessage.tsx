@@ -1,9 +1,8 @@
 import { FC } from 'react';
-import { ErrorAllert } from './ErrorMessage.styled';
 
 const ErrorMessage: FC = () => {
   return (
-    <ErrorAllert>Something went wrong. Please, try again later</ErrorAllert>
+    <div className='text-5xl text-buttonHoverColor mx-auto'>Something went wrong. Please, try again later</div>
   );
 };
 
